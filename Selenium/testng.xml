@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite" parallel="classes">
+  <test name="SampleTest">
+    <classes>
+      <class name="day3.MouseActions"/>
+      <class name="day3.MouseOver"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- SampleSuite -->
